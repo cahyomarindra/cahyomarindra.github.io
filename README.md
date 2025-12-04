@@ -120,5 +120,17 @@
   <section id="projects">
     <h2>Project Experiences</h2>
     <p>
-      <strong></strong>
-    </p>
+      <strong>Analisis Performa Alat Pirolisis Untuk Mengkonversi Sampah Plastik Menjadi Bahan Bakar - Tugas Akhir</strong>
+      <em>( 2025 )</em><br>
+      <strong>Tools:</strong> Reaktor Pirolisis, Digital Thermocouple, Timer, Ms. Word, Ms.Excel (Analisis Data)</p>
+    <ul>
+      <li>Melakukan pengujian alat pirolisis plastik milik Badan Usaha Milik Desa (BUMDes).</li>
+      <li>Melakukan pengujian performa alat menggunakan tiga jenis sampah plastik, seperti plastik LDPE, PP, dan plastik campuran.</li>
+      <li>Menganalisis pengaruh jenis plastik terhadap yield dan kualitas minyak yang dihasilkan.</li>
+      <li>Menghitung efisiensi sistem dan tekno ekonomi pirolisis plastik selama proses pengujian.</li>
+      <li>Menyusun laporan teknis berbasis data eksperimen.</li>
+    </ul>
+    <p>
+      <strong>Proyek Pelatihan SolidWorks - Program Drafter 3D Mekanikal</strong>
+      <em>( 2023 )</em><br>
+      <strong>Tools:</strong> SolidWorks, Engineering Drawing Standard, Measurement Tools</p>
