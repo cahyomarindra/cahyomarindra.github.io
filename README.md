@@ -134,3 +134,26 @@
       <strong>Proyek Pelatihan SolidWorks - Program Drafter 3D Mekanikal</strong>
       <em>( 2023 )</em><br>
       <strong>Tools:</strong> SolidWorks, Engineering Drawing Standard, Measurement Tools</p>
+    <ul>
+      <li>Membuat model 3D komponen mekanik menggunakan SolidWorks.</li>
+      <li>Melakukan assembly beberapa komponen menjadi satu kesatuan.</li>
+      <li>Membuat engineering drawing lengkap dengan dimensi dan etiket.</li>
+      <li>Melakukan simple motion analysis untuk mengevaluasi interaksi antar part.</li>
+    </ul>
+    <p>
+      <strong>Desain Rangkaian Jalan Antar Tangki PT. Pertamina Integrated Terminal Semarang - Kuliah Praktik</strong>
+      <em>( 2022 )</em><br>
+      <strong>Tools:</strong> AutoCAD, Measurement Tools, Safety Equipment, Ms. Word, Ms. Powerpoint</p>
+    <ul>
+      <li>Melakukan observasi lapangan secara langsung di area distribusi bahan bakar minyak.</li>
+      <li>Melakukan pengukuran pada area tangki untuk mengetahui jarak antar tangki.</li>
+      <li>Membuat desain CAD 2D dan 3D lay-out rancangan jalan antar tangki.</li>
+      <li>Membuat laporan hasil kuliah praktik selama satu bulan.</li>
+    </ul>
+    <p>
+      <strong>Re-Design Alat Stand Hand Bor - Tugas Perencanaan Mesin</strong>
+      <em>( 2022 )</em><br>
+      <strong>Tools:</strong> SolidWorks, Technical Drawing References, Measurement Tools</p>
+    <ul>
+      <li></li>
+    </ul>
