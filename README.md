@@ -151,9 +151,70 @@
       <li>Membuat laporan hasil kuliah praktik selama satu bulan.</li>
     </ul>
     <p>
-      <strong>Re-Design Alat Stand Hand Bor - Tugas Perencanaan Mesin</strong>
+      <strong>Re-Drawing Alat Stand Hand Bor - Tugas Perencanaan Mesin</strong>
       <em>( 2022 )</em><br>
-      <strong>Tools:</strong> SolidWorks, Technical Drawing References, Measurement Tools</p>
+      <strong>Tools:</strong> SolidWorks, Engineering Drawing Standard, Measurement Tools, Ms. Word</p>
+    <ul>
+      <li>Membuat model 3D masing - masing komponen menggunakan software SolidWorks.</li>
+      <li>Melakukan assembly beberapa komponen menjadi satu kesatuan.</li>
+      <li>Membuat engineering drawing lengkap dengan dimensi dan etiket.</li>
+      <li>Membuat laporan hasil re-drawing alat stand hand bor.</li>
+    </ul>
+    <p>
+      <strong>Re-Drawing Mesin Pemipil Jagung - Proyek Pribadi</strong>
+      <em>( 2021 )</em><br>
+      <strong>Tools:</strong> SolidWorks</p>
+    <ul>
+      <li>Melakukan re-drawing mesin pemipil jagung menggunakan SolidWorks berdasarkan gambar.</li>
+      <li>Membuat model 3D beberapa komponen, seperti rangka, pully, poros, dan pillow.</li>
+      <li>Membuat engineering drawing lengkap dengan dimensi.</li>
+    </ul>
+  </section>
+
+  <section id="works">
+    <h2>Work Experiences</h2>
+    <p>
+      <strong>Freelance Crew Store - Playtopia (PT. Amazone Dunia Rekreasi)</strong><br>
+      <em>April 2024 - Februari 2025</em></p>
+    <ul>
+      <li>Bertanggungjawab dalam menjaga wahana permainan anak – anak berumur <17 tahun dengan pengunjung sebanyak >100 anak.</li>
+      <li>Bertanggungjawab atas kebersihan wahana setiap sebelum maupun sesudah wahana dibuka.</li>
+      <li>Berperan dalam pelaksanaan prosedur keselamatan untuk 4 wahana yang memiliki indikator cukup membahayakan.</li>
+    </ul>
+    <p>
+      <strong>Part Time Consultant - Lab Art Aromatique Parfume</strong><br>
+      <em>Agustus 2023 - November 2023</em></p>
+    <ul>
+      <li>Bertanggungjawab atas pelayanan pelanggan dan memberikan rekomendasi terkait parfum yang cocok dengan pelanggan.</li>
+      <li>Bertanggungjawab atas kebersihan dan kenyamanan toko selama 6 jam kerja.</li>
+      <li>Berperan dalam pengecekan ketersediaan stok, seperti minyak parfum, alkohol, maupun botol parfum, dan melaporkan kepada kepala toko.</li>
+    </ul>
+  </section>
+
+  <section id="organisations">
+    <h2>Organisation Experiences</h2>
+    <p>
+      <strong>Ketua Departemen Tata Usaha - Lembaga Pers Mahasiswa Fakultas Teknik Uniersitas Muhammadiyah Surakarta</strong><br>
+      <em>Januari - Desember 2022</em></p>
+    <ul>
+      <li>Berperan dalam meliput 50% kejadian atau kegiatan yang ada di dalam kampus maupun diluar kampus untuk dijadikan produk jurnalistik, seperti majalah, buletin, koran, atau blogspot pada tahun 2022.</li>
+      <li>Menyelesaikan karya tulis sebanyak 5 karya untuk kemudian dipublikasikan pada blogspot, buletin, atau majalah.</li>
+      <li>Bertanggungjawab atas pendataan dan pengelolaan >62 barang inventaris organisasi dengan pengarsipan menggunakan Microsoft Excel dan pengelolaan atribut organisasi untuk pengurus baru.</li>
+      <li>Menyelesaikan proposal pengiklanan yang digunakan untuk mencari iklan dan dicantumkan pada produk cetak, serta berhasil mendapatkan 8 UMKM yang bersedia untuk diiklankan produknya.</li>
+    </ul>
+    <p>
+      <strong>Anggota Bidang Sosial Pemberdayaan Masyarakat - Ikatan Mahasiswa Muhammadiyah Fakultas Teknik Universitas Muhammadiyah Surakarta</strong><br>
+      <em>September 2021 - September 2022</em></p>
+    <ul>
+      <li>Bertanggungjawab atas pendataan dan pengelolaan dana yang dikumpulkan untuk korban bencana maupun anggota yang terkena musibah.</li>
+      <li>Berperan dalam mengelola dana program berbagi makanan kepada orang - orang yang membutuhkan di wilayah Surakarta.</li>
+      <li>Bertanggungjawab membuat laporan pengelolaan dana untuk korban bencana dan program berbagi makanan untuk dilaporkan kepada ketua bidang dan ketua organisasi.</li>
+      <li>Berperan dalam membantu lembaga LAZISMU Surakarta sebagai supir ambulance sementara untuk warga yang membutuhkan bantuan.</li>
+    </ul>
+    <p>
+      <strong>Staff Departemen Tata Usaha - Lembaga Pers Mahasiswa Fakultas Teknik Uniersitas Muhammadiyah Surakarta</strong><br>
+      <em>Januari - Desember 2021</em></p>
     <ul>
       <li></li>
     </ul>
+  </section>
