@@ -43,6 +43,7 @@
     }
     h2 {
       color: #000080;
+      margin-top:0
     }
     footer {
       text-align: center;
@@ -59,6 +60,36 @@
       from { transform: translateY(-20px); opacity: 0; }
       to { transform: translateY(0); opacity: 1; }
     }
+    /* Lightbox gallery styles */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+      align-items: start;
+    }
+    .gallery img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: transform .2s, opacity .3s;
+      opacity: 1;
+      display: block;
+    }
+    .gallery img.hidden { display: none; }
+    .gallery img:hover { transform: scale(1.03); 
+    }
+    #lightbox-modal {
+      position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.85);display:none;justify-content:center;align-items:center;z-index:9999;padding:20px;box-sizing:border-box
+    }
+    #lightbox-modal img{max-width:90%;max-height:90%;border-radius:10px}
+    /* controls */
+    .gallery-filter{display:flex;justify-content:center;gap:12px;align-items:center}
+    .gallery-filter select{padding:6px 10px;border-radius:6px}
+    /* slideshow highlight */
+    .gallery img.dim{opacity:0.35}
   </style>
 </head>
 <body>
@@ -234,6 +265,16 @@
 
   <section id="gallery">
     <h2>Gallery</h2>
+    <div class="gallery-filter" style="margin-bottom:20px; text-align:center;">
+      <label for="gallery-category"><strong>Kategori:</strong></label>
+      <select id="gallery-category" style="padding:6px 10px; border-radius:6px; margin-left:8px;">
+        <option value="all">Show All</option>
+        <option value="project">Project Experiences</option>
+        <option value="organization">Organisation Experiences</option>
+        <option value="certificate">Certificates</option>
+      </select>
+    </div>
+
     
   </section>
 
