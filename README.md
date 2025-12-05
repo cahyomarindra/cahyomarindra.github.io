@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles.css" />
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Times New Roman", Arial, serif;
       margin: 0;
       padding: 0;
       background: #b0e0e6;
@@ -197,8 +197,9 @@
       <strong>Ketua Departemen Tata Usaha - Lembaga Pers Mahasiswa Fakultas Teknik Uniersitas Muhammadiyah Surakarta</strong><br>
       <em>Januari - Desember 2022</em></p>
     <ul>
-      <li>Berperan dalam meliput 50% kejadian atau kegiatan yang ada di dalam kampus maupun diluar kampus untuk dijadikan produk jurnalistik, seperti majalah, buletin, koran, atau blogspot pada tahun 2022.</li>
+      <li>Berperan dalam meliput 50% kejadian atau kegiatan yang ada di dalam kampus maupun diluar kampus untuk dijadikan produk jurnalistik, seperti majalah, buletin, koran, atau blogspot di tahun 2022.</li>
       <li>Menyelesaikan karya tulis sebanyak 5 karya untuk kemudian dipublikasikan pada blogspot, buletin, atau majalah.</li>
+      <li>Berperan dalam kepanitian pada program kerja di tahun 2022.</li>
       <li>Bertanggungjawab atas pendataan dan pengelolaan >62 barang inventaris organisasi dengan pengarsipan menggunakan Microsoft Excel dan pengelolaan atribut organisasi untuk pengurus baru.</li>
       <li>Menyelesaikan proposal pengiklanan yang digunakan untuk mencari iklan dan dicantumkan pada produk cetak, serta berhasil mendapatkan 8 UMKM yang bersedia untuk diiklankan produknya.</li>
     </ul>
@@ -215,6 +216,34 @@
       <strong>Staff Departemen Tata Usaha - Lembaga Pers Mahasiswa Fakultas Teknik Uniersitas Muhammadiyah Surakarta</strong><br>
       <em>Januari - Desember 2021</em></p>
     <ul>
-      <li></li>
+      <li>Berperan dalam peliputan kepada 5 narasumber secara online mengenai isu yang ada di kampus maupun luar kampus sebagai bahan produk jurnalistik di tahun 2021.</li>
+      <li>Berperan dalam kepanitian pada program kerja di tahun 2021.</li>
+      <li>Bertanggungjawab dalam menyiapkan inventaris untuk kegiatan program kerja dan atribut organisasi untuk pengurus baru.</li>
     </ul>
   </section>
+
+  <section id="certificates">
+    <h2>Trainings & Certificates</h2>
+    <ul>
+      <li><strong>TOEFL Score 500</strong> - Sertifikasi Lembaga KIND English Course <em>( 2025 ).</em></li>
+      <li><strong>Drafter CAD 3D Mekanikal</strong> - Pelatihan dan sertifikasi Lembaga Sertifikasi Profesi (LSP) Balai Latihan Kerja Surakarta <em>( 2023 ).</em></li>
+      <li><strong>Pelatihan CAD</strong> - Pelatihan komunitas Mechanical Engineering Design Club (MEDC) Teknik Mesin Universitas Muhammadiyah Surakarta <em>( 2020 ).</em></li>
+      <li><strong>SolidWorks Basic</strong> - Pelatihan Laboratorium CAD/CAM/CAE Fakultas Teknik Universitas Muhammadiyah Surakarta <em>( 2020 ).</em></li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>No. Telepon:</strong> (+62) 812-9946-3158</p>
+    <p><strong>Email:</strong> cahyo.um123@gmail.com</p>
+    <p><strong>Linkedin:</strong> linkedin.com/in/cahyo-utomo-marindra</p>
+  </section>
+
+  <footer>
+    
+  </footer>
