@@ -33,10 +33,9 @@
     }
     section {
       max-width: 900px;
-      margin: auto;
-      padding: 2rem;
+      margin: 1.5rem auto;
+      padding: 1rem;
       background: #E0FFFF;
-      margin-top: 2rem;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
       text-align: justify;
@@ -256,10 +255,10 @@
   <section id="certificates">
     <h2>Trainings & Certificates</h2>
     <ul>
-      <li><strong>TOEFL Score 500</strong> - Sertifikasi Lembaga KIND English Course <em>( 2025 ).</em></li>
-      <li><strong>Drafter CAD 3D Mekanikal</strong> - Pelatihan dan sertifikasi Lembaga Sertifikasi Profesi (LSP) Balai Latihan Kerja Surakarta <em>( 2023 ).</em></li>
-      <li><strong>Pelatihan CAD</strong> - Pelatihan komunitas Mechanical Engineering Design Club (MEDC) Teknik Mesin Universitas Muhammadiyah Surakarta <em>( 2020 ).</em></li>
-      <li><strong>SolidWorks Basic</strong> - Pelatihan Laboratorium CAD/CAM/CAE Fakultas Teknik Universitas Muhammadiyah Surakarta <em>( 2020 ).</em></li>
+      <li><strong>TOEFL Score 500</strong> - Sertifikasi Lembaga KIND English Course <em>(2025).</em></li>
+      <li><strong>Drafter CAD 3D Mekanikal</strong> - Pelatihan dan sertifikasi Lembaga Sertifikasi Profesi (LSP) Balai Latihan Kerja Surakarta <em>(2023).</em></li>
+      <li><strong>Pelatihan CAD</strong> - Pelatihan komunitas Mechanical Engineering Design Club (MEDC) Teknik Mesin Universitas Muhammadiyah Surakarta <em>(2020).</em></li>
+      <li><strong>SolidWorks Basic</strong> - Pelatihan Laboratorium CAD/CAM/CAE Fakultas Teknik Universitas Muhammadiyah Surakarta <em>(2020).</em></li>
     </ul>
   </section>
 
