@@ -273,8 +273,92 @@
         <option value="certificate">Certificates</option>
       </select>
     </div>
-
-    
+    <div class="gallery">
+      <!-- Project images -->
+      <img src="assets/project-pyrolysis.jpg" alt="Final Project Pyrolysis Device" data-type="project" onclick="openLightbox(this)">
+      <img src="assets/project-solidworks.jpg" alt="SolidWorks Training Project" data-type="project" onclick="openLightbox(this)">
+      <img src="assets/project-heat-transfer.jpg" alt="Heat Transfer Analysis" data-type="project" onclick="openLightbox(this)">
+      <img src="assets/project-corn-sheller.jpg" alt="Re-Design Mesin Pemipil Jagung" data-type="project" onclick="openLightbox(this)">
+      <img src="assets/project-industry-practice.jpg" alt="Kuliah Praktik Observasi Produksi" data-type="project" onclick="openLightbox(this)">
+      <!-- Organizational images -->
+      <img src="images/Foto Presidium.JPG" alt="Lembaga Pers Mahasiswa 2021" data-type="organization" onclick="openLightbox(this)">
+      <img src="images/Foto Rapat.JPG" alt="Lembaga Pers Mahasiswa 2022" data-type="organization" onclick="openLightbox(this)">
+      <!-- Certificate images -->
+      <img src="assets/cert-solidworks.jpg" alt="SolidWorks Certificate" data-type="certificate" onclick="openLightbox(this)">
+      <img src="assets/cert-data-analyst.jpg" alt="Data Analysis Certificate" data-type="certificate" onclick="openLightbox(this)">
+      <img src="assets/cert-logistics.jpg" alt="Logistics Training Certificate" data-type="certificate" onclick="openLightbox(this)">
+    </div>
+    <div id="lightbox-modal" onclick="closeLightbox()">
+      <img id="lightbox-img" src="" alt="Expanded image">
+    </div>
+    <script>
+      /* All gallery scripts run after DOM is ready to avoid accessing undefined elements */
+      document.addEventListener('DOMContentLoaded', function() {
+        const gallerySelect = document.getElementById('gallery-category');
+        const galleryImages = Array.from(document.querySelectorAll('.gallery img'));
+        let slideIndex = -1;
+        let slideTimer = null;
+        function openLightbox(imgEl) {
+          const modal = document.getElementById('lightbox-modal');
+          const modalImg = document.getElementById('lightbox-img');
+          modalImg.src = imgEl.src;
+          modal.style.display = 'flex';
+        }
+        function closeLightbox() {
+          const modal = document.getElementById('lightbox-modal');
+          const modalImg = document.getElementById('lightbox-img');
+          modal.style.display = 'none';
+          modalImg.src = '';
+        }
+        /* expose to global so onclick inline handlers work */
+        window.openLightbox = function(el){ openLightbox(el); };
+        window.closeLightbox = function(){ closeLightbox(); };
+        function filterGallery() {
+          const category = gallerySelect.value;
+          galleryImages.forEach(img => {
+            const type = img.getAttribute('data-type');
+            if (category === 'all' || category === type) {
+              img.classList.remove('hidden');
+            } else {
+              img.classList.add('hidden');
+            }
+          });
+        }
+        gallerySelect.addEventListener('change', filterGallery);
+        function autoSlideshow() {
+          // clear previous timer
+          if (slideTimer) clearTimeout(slideTimer);
+          const visibleImages = galleryImages.filter(i => !i.classList.contains('hidden'));
+          if (visibleImages.length === 0) return; // nothing to show
+          // dim all
+          visibleImages.forEach(img => img.classList.add('dim'));
+          slideIndex = (slideIndex + 1) % visibleImages.length;
+          const current = visibleImages[slideIndex];
+          // highlight current
+          current.classList.remove('dim');
+          // schedule next
+          slideTimer = setTimeout(autoSlideshow, 2500);
+        }
+        // start slideshow after images have loaded
+        const imagePromises = galleryImages.map(img => {
+          return new Promise(resolve => {
+            if (img.complete) return resolve();
+            img.onload = img.onerror = resolve;
+          });
+        });
+        Promise.all(imagePromises).then(() => {
+          // initialize state and start
+          galleryImages.forEach(img => img.classList.remove('dim'));
+          filterGallery();
+          // small timeout to ensure layout applied
+          setTimeout(autoSlideshow, 500);
+        });
+        // close modal when clicking outside image
+        document.getElementById('lightbox-modal').addEventListener('click', function(e){
+          if (e.target.id === 'lightbox-modal') closeLightbox();
+        });
+      });
+    </script>
   </section>
 
   <section id="contact">
