@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8" />
+Mech  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cahyo Utomo Marindra - Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
@@ -93,9 +93,9 @@
 </head>
 <body>
   <header>
-    <img src="images/Foto Profil.png" alt="Profile Photo" style="width:150px;height:200px;border-radius:50%;border:4px solid white;animation: fadeIn 2s;" />
+    <img src="images/Foto Profil.png" alt="Profile Photo" style="width:150px;height:150px;object-fit:cover;border-radius:50%;border:4px solid rgba(255,255,255,0.9);margin:0 auto 12px;animation: fadeIn 2s;" />
     <h1 style="animation: slideDown 1.5s;">Cahyo Utomo Marindra</h1>
-    <p style="animation: fadeIn 2s;">Fresh Graduate | Mechanical Engineering</p>
+    <p style="animation: fadeIn 2s;">Fresh Graduate — Mechanical Engineering · Manufacturing & Energy Conversion</p>
   </header>
   
   <nav>
@@ -275,11 +275,11 @@
     </div>
     <div class="gallery">
       <!-- Project images -->
-      <img src="images/Foto Project TA (1).jpg" alt="Final Project Pyrolysis Device" data-type="project" onclick="openLightbox(this)">
-      <img src="images/Foto Project TA (2).jpg" alt="Final Project Pyrolysis Device" data-type="project" onclick="openLightbox(this)">
-      <img src="images/Foto Project TA (3).jpg" alt="Final Project Pyrolysis Device" data-type="project" onclick="openLightbox(this)">
-      <img src="images/Foto Project TA (4).jpeg" alt="Final Project Pyrolysis Device" data-type="project" onclick="openLightbox(this)">
-      <img src="images/Foto Project TA (5).jpg" alt="Final Project Pyrolysis Device" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TA (1).jpg" alt="Final Project Pyrolysis Device 1" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TA (2).jpg" alt="Final Project Pyrolysis Device 2" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TA (3).jpg" alt="Final Project Pyrolysis Device 3" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TA (4).jpeg" alt="Final Project Pyrolysis Device 4" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TA (5).jpg" alt="Final Project Pyrolysis Device 5" data-type="project" onclick="openLightbox(this)">
       <img src="images/Foto Project Training (1).PNG" alt="SolidWorks Training Project" data-type="project" onclick="openLightbox(this)">
       <img src="images/Foto Project Training (2).PNG" alt="SolidWorks Training Project" data-type="project" onclick="openLightbox(this)">
       <img src="images/Foto Project Training (3).PNG" alt="SolidWorks Training Project" data-type="project" onclick="openLightbox(this)">
@@ -346,12 +346,10 @@
           const category = gallerySelect.value;
           galleryImages.forEach(img => {
             const type = img.getAttribute('data-type');
-            if (category === 'all' || category === type) {
-              img.classList.remove('hidden');
-            } else {
-              img.classList.add('hidden');
-            }
-          });
+            img.classList.toggle('hidden', !(category === 'all' || category === type));
+        });
+            // FIX HERE — reset slideshow index ALWAYS
+        slideIndex = -1;
         }
         gallerySelect.addEventListener('change', filterGallery);
         function autoSlideshow() {
@@ -392,13 +390,12 @@
 
   <section id="contact">
     <h2>Contact</h2>
-    <p><strong>No. Telepon:</strong> (+62) 812-9946-3158</p>
-    <p><strong>Email:</strong> cahyo.um123@gmail.com</p>
-    <p><strong>Linkedin:</strong> linkedin.com/in/cahyo-utomo-marindra</p>
+    <p><strong>No. Telepon:</strong> +62 812-9946-3158</p>
+    <p><strong>Email:</strong> <a href="mailto:cahyo.um123@gmail.com">cahyo.um123@gmail.com</a></p>
+    <p><strong>Linkedin:</strong> <a href="https://linkedin.com/in/cahyo-utomo-marindra" target="_blank" rel="noopener">cahyo-utomo-marindra</a></p>
   </section>
 
   <footer>
-    <p>Terima kasih telah mengunjungi portofolio saya! Saya terbuka untuk diskusi terkait engineering, manufacturing, dan energi baru terbarukan.</p>
     <p>&copy; 2025 Cahyo Utomo Marindra - Portofolio. All Rights Reserved.</p>
   </footer>
 </body>
