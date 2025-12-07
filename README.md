@@ -152,7 +152,7 @@
     <p>
       <strong>Analisis Performa Alat Pirolisis Untuk Mengkonversi Sampah Plastik Menjadi Bahan Bakar - Tugas Akhir</strong>
       <em>( 2025 )</em><br>
-      <strong>Tools:</strong> Reaktor Pirolisis, Digital Thermocouple, Timer, Ms. Word, Ms.Excel (Analisis Data)</p>
+      <strong>Tools:</strong> Reaktor Pirolisis, Thermocouple, Timer, Ms. Word, Ms.Excel (Analisis Data)</p>
     <ul>
       <li>Melakukan pengujian alat pirolisis plastik milik Badan Usaha Milik Desa (BUMDes).</li>
       <li>Melakukan pengujian performa alat menggunakan tiga jenis sampah plastik, seperti plastik LDPE, PP, dan plastik campuran.</li>
@@ -275,7 +275,11 @@
     </div>
     <div class="gallery">
       <!-- Project images -->
-      <img src="assets/project-pyrolysis.jpg" alt="Final Project Pyrolysis Device" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TA (1).jpg" alt="Final Project Pyrolysis Device" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TA (2).jpg" alt="Final Project Pyrolysis Device" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TA (3).jpg" alt="Final Project Pyrolysis Device" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TA (4).jpg" alt="Final Project Pyrolysis Device" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TA (5).jpg" alt="Final Project Pyrolysis Device" data-type="project" onclick="openLightbox(this)">
       <img src="assets/project-solidworks.jpg" alt="SolidWorks Training Project" data-type="project" onclick="openLightbox(this)">
       <img src="assets/project-heat-transfer.jpg" alt="Heat Transfer Analysis" data-type="project" onclick="openLightbox(this)">
       <img src="assets/project-corn-sheller.jpg" alt="Re-Design Mesin Pemipil Jagung" data-type="project" onclick="openLightbox(this)">
