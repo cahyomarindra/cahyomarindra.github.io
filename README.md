@@ -390,7 +390,7 @@
 
   <section id="contact">
     <h2>Contact</h2>
-    <p><strong>No. Telepon:</strong> +62 812-9946-3158</p>
+    <p><strong>Phone:</strong> +62 812-9946-3158</p>
     <p><strong>Email:</strong> <a href="mailto:cahyo.um123@gmail.com">cahyo.um123@gmail.com</a></p>
     <p><strong>Linkedin:</strong> <a href="https://linkedin.com/in/cahyo-utomo-marindra" target="_blank" rel="noopener">cahyo-utomo-marindra</a></p>
   </section>
