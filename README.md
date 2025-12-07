@@ -270,7 +270,7 @@
         <option value="all">Show All</option>
         <option value="project">Project Experiences</option>
         <option value="organization">Organisation Experiences</option>
-        <option value="certificate">Certificates</option>
+        <option value="certificate">Trainings & Certificates</option>
       </select>
     </div>
     <div class="gallery">
@@ -278,19 +278,44 @@
       <img src="images/Foto Project TA (1).jpg" alt="Final Project Pyrolysis Device" data-type="project" onclick="openLightbox(this)">
       <img src="images/Foto Project TA (2).jpg" alt="Final Project Pyrolysis Device" data-type="project" onclick="openLightbox(this)">
       <img src="images/Foto Project TA (3).jpg" alt="Final Project Pyrolysis Device" data-type="project" onclick="openLightbox(this)">
-      <img src="images/Foto Project TA (4).jpg" alt="Final Project Pyrolysis Device" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TA (4).jpeg" alt="Final Project Pyrolysis Device" data-type="project" onclick="openLightbox(this)">
       <img src="images/Foto Project TA (5).jpg" alt="Final Project Pyrolysis Device" data-type="project" onclick="openLightbox(this)">
-      <img src="assets/project-solidworks.jpg" alt="SolidWorks Training Project" data-type="project" onclick="openLightbox(this)">
-      <img src="assets/project-heat-transfer.jpg" alt="Heat Transfer Analysis" data-type="project" onclick="openLightbox(this)">
-      <img src="assets/project-corn-sheller.jpg" alt="Re-Design Mesin Pemipil Jagung" data-type="project" onclick="openLightbox(this)">
-      <img src="assets/project-industry-practice.jpg" alt="Kuliah Praktik Observasi Produksi" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project Training (1).PNG" alt="SolidWorks Training Project" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project Training (2).PNG" alt="SolidWorks Training Project" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project Training (3).PNG" alt="SolidWorks Training Project" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project Training (4).PNG" alt="SolidWorks Training Project" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project Training (5).PNG" alt="SolidWorks Training Project" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project Training (6).PNG" alt="SolidWorks Training Project" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project Training (7).PNG" alt="SolidWorks Training Project" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project KP (1).PNG" alt="Kuliah Praktik Pertamina" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project KP (2).PNG" alt="Kuliah Praktik Pertamina" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project KP (3).png" alt="Kuliah Praktik Pertamina" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project KP (4).png" alt="Kuliah Praktik Pertamina" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TPM (1).PNG" alt="Re-Drawing Stand Hand Bor" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TPM (2).PNG" alt="Re-Drawing Stand Hand Bor" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TPM (3).PNG" alt="Re-Drawing Stand Hand Bor" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TPM (4).PNG" alt="Re-Drawing Stand Hand Bor" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TPM (5).PNG" alt="Re-Drawing Stand Hand Bor" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TPM (6).PNG" alt="Re-Drawing Stand Hand Bor" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TPM (7).PNG" alt="Re-Drawing Stand Hand Bor" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TPM (8).PNG" alt="Re-Drawing Stand Hand Bor" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TPM (9).PNG" alt="Re-Drawing Stand Hand Bor" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project TPM (10).PNG" alt="Re-Drawing Stand Hand Bor" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project Pribadi (1).PNG" alt="Personal Project" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project Pribadi (2).PNG" alt="Personal Project" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project Pribadi (3).PNG" alt="Personal Project" data-type="project" onclick="openLightbox(this)">
+      <img src="images/Foto Project Pribadi (4).PNG" alt="Personal Project" data-type="project" onclick="openLightbox(this)">
       <!-- Organizational images -->
       <img src="images/Foto Presidium.JPG" alt="Lembaga Pers Mahasiswa 2021" data-type="organization" onclick="openLightbox(this)">
       <img src="images/Foto Rapat.JPG" alt="Lembaga Pers Mahasiswa 2022" data-type="organization" onclick="openLightbox(this)">
       <!-- Certificate images -->
-      <img src="assets/cert-solidworks.jpg" alt="SolidWorks Certificate" data-type="certificate" onclick="openLightbox(this)">
-      <img src="assets/cert-data-analyst.jpg" alt="Data Analysis Certificate" data-type="certificate" onclick="openLightbox(this)">
-      <img src="assets/cert-logistics.jpg" alt="Logistics Training Certificate" data-type="certificate" onclick="openLightbox(this)">
+      <img src="images/Foto Sertif TOEFL.PNG" alt="Sertifikat TOEFL" data-type="certificate" onclick="openLightbox(this)">
+      <img src="images/Foto Sertif CAD.PNG" alt="Sertifikat BNSP" data-type="certificate" onclick="openLightbox(this)">
+      <img src="images/Foto Sertif MEDC.PNG" alt="Sertifikat MEDC" data-type="certificate" onclick="openLightbox(this)">
+      <img src="images/Foto Sertif LAB.PNG" alt="Sertifikat MEDC" data-type="certificate" onclick="openLightbox(this)">
+      <img src="images/Foto Pelatihan MEDC.PNG" alt="Pelatihan MEDC" data-type="certificate" onclick="openLightbox(this)">
+      <img src="images/Foto Pelatihan LAB.PNG" alt="Pelatihan LAB CAD" data-type="certificate" onclick="openLightbox(this)">
+      <img src="images/Foto Pelatihan LAB1.PNG" alt="Pelatihan LAB CAD" data-type="certificate" onclick="openLightbox(this)">
     </div>
     <div id="lightbox-modal" onclick="closeLightbox()">
       <img id="lightbox-img" src="" alt="Expanded image">
@@ -373,5 +398,8 @@
   </section>
 
   <footer>
-    
+    <p>Terima kasih telah mengunjungi portofolio saya! Saya terbuka untuk diskusi terkait engineering, manufacturing, dan energi baru terbarukan.</p>
+    <p>&copy; 2025 Cahyo Utomo Marindra - Portofolio. All Rights Reserved.</p>
   </footer>
+</body>
+</html>
