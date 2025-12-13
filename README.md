@@ -308,6 +308,7 @@
       <!-- Organizational images -->
       <img src="images/Foto Presidium.JPG" alt="Lembaga Pers Mahasiswa 2021" data-type="organization" onclick="openLightbox(this)">
       <img src="images/Foto Rapat.JPG" alt="Lembaga Pers Mahasiswa 2022" data-type="organization" onclick="openLightbox(this)">
+      <img src="images/Foto Rapat IMM.jpg" alt="Lembaga Pers Mahasiswa 2022" data-type="organization" onclick="openLightbox(this)">
       <!-- Certificate images -->
       <img src="images/Foto Sertif TOEFL.PNG" alt="Sertifikat TOEFL" data-type="certificate" onclick="openLightbox(this)">
       <img src="images/Foto Sertif CAD.PNG" alt="Sertifikat BNSP" data-type="certificate" onclick="openLightbox(this)">
